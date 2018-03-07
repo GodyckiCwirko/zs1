@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Systemy liczbowe</title>
+</head>
+<body>
+<div id="wynik">treść</div>
+<script>
+    //var elwynik = document.getElementById('wynik');
+        //document.write("<h3> Systemy liczbowe </3>");
+    //var dziesientna = 15;
+    //var oktalna = 015;
+    //elwynik.style.color = 'red'; // crl+e
+    //elwynik.innerHTML = '(12)<sub>10</sub> = (' + oktalna + ") <sub>8</sub>";
+    //var hex = 0xA;
+    //document.write('(A)<sub>16</sub> = ('+ hex + ')<sub>10</sub>');
+    //elwynik.innerHTML = '(10)<sub>10</sub> = (' + A + ") <sub>16</sub>";
+    // Użytkownik z klawiatury podaje liczbę 16 wyswielt na ekranie wynik w sysy dec (10)
+
+    var szesnastkowa = prompt('podaj liczbe szesnastkową');
+    var zamienHex = '0x' + szesnastkowa ;
+    zamienHex = Number(zamienHex);
+    console.log(typeof(zamienHex));
+    elwynik.innerHTML ='(' + szesnastkowa + ')<sub>10</sub> = (' + zamienHex + ") <sub>10</sub>";
+
+    </script>
+
+</body>
+</html>
+
+
+zad. napisz program konwertujący system oktalny na decymalny
+
+
+
+
+
+
+
